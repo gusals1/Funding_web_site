@@ -1,0 +1,65 @@
+*{margin: 0; padding: 0;}
+body {
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+#loginbox{
+    width:300px;
+    border:1px solid grey;
+    margin:200px auto 50px;
+    padding:40px 100px;
+    border-radius:5px;
+    
+  }
+  h2{
+    width:200px;
+    height:auto;
+    margin:30px auto;
+  }
+  input[type="text"]{
+    display:block;
+    width:300px;
+    height:55px;
+    margin:20px auto;
+    outline:none;
+    border:1px solid #cccccc;
+    text-indent: 15px;
+    border-radius:5px;
+  }
+  input[type="text"]:hover{
+    border:1px solid #85DFFF;
+
+  }
+  input[type="submit"]{
+    display:block;
+    border-radius:5px;  
+    width:306px;
+    height:55px;
+    margin:20px auto;
+    outline:none;
+    border:none;
+    background:#85dfff;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:18px;
+  }
+  input[type ="submit"]:active{
+    background:#cccccc;
+  }
+
+
+  .find{
+    width:271px;
+    margin:0 auto;
+  }
+  .find a{
+    border-right:1px solid #000000;
+    display:inline-block;
+    font-size:12px;
+    padding:0 15px;
+    text-decoration:none;
+    color:#000000;
+  }
+  .find a:nth-child(3){
+    border:none
+  }

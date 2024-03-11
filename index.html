@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/master.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <title>Connector</title>
+</head>
+
+<body id="home">
+  <div class="mobile_blur"></div>
+  <div class="mobile_navigation">
+    <img src="./image/close.png" alt="close" class="close_btn">
+    <ul class="mainMenu">
+      <li><a href="#">펀딩</a></li>
+      <li><a href="#">오픈예정</a></li>
+      <li><a href="store.html">스토어</a></li>
+      <li><a href="communication.html">소통공간</a></li>
+      <li><a href="#">더보기</a></li>
+    </ul>
+    <ul class="sideMenu">
+      <li><a href="#">로그인</a></li>
+      <li><a href="#">회원가입</a></li>
+      <li><a href="#">레시피생성</a></li>
+    </ul>
+    <div class="additional_menu">
+      <a href="company.html"><img src="./image/company.png" alt="company_icon"><p>회사소개</p></a>
+      <a href="#"><img src="./image/customer.png" alt="customer_icon"><p>고객센터</p></a>
+    </div>
+  </div>
+  <div id="header">
+    <div id="header_top">
+      <form class="searchbar">
+        <input type="text" class="header_input" id="search_value" name="search_value" placeholder="찾고 있는 커넥터즈가 있나요?">
+        <button name="search_value" type="button"><img src="image/search.png" alt="seacrh_icon"></button>
+      </form>
+      <p class="headermenu">
+        <a href="login.html">LOGIN</a>
+        <a href="joinpage.html">CONTECT US</a>
+        <a href="#">프로젝트 생성</a>
+      </p>
+    </div>
+
+    <div id="header_btm">  
+      <h1 class="logobox">
+        <a href="index.html">
+          <img src="./image/logo.png" alt="connector logo">
+        </a>
+      </h1>
+      <nav class="mainNav">
+        <ul>
+          <li><a href="#">펀딩</a></li>
+          <li><a href="#">오픈예정</a></li>
+          <li><a href="store.html">스토어</a></li>
+          <li><a href="communication.html">소통공간</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <input type="checkbox" id="hamburger_btn">
+        <label for="hamburger_btn"><img src="./image/hamburger.png" alt="button"></label>
+      </div>
+      <ul class="toggle_box">
+        <li><a href="company.html">커넥터소개</a></li>
+        <li><a href="#">성공스토리</a></li>
+        <li><a href="subQnA.html">자주묻는 질문</a></li>
+        <li><a href="#">증권형 펀딩이란</a></li>
+        <li><a href="#">뉴스레터</a></li>
+        <li><a href="#">매거진</a></li>
+      </ul>
+      <div class="tablet_header">
+        <img src="./image/search.png" alt="search">
+        <img src="./image/hamburger.png" alt="hamburger" class="tablet_toggle">
+      </div>
+    </div>
+  </div>
+
+  <div id="banner">
+    <div class="banner_img">
+      <img src="./image/banner.gif" alt="mainBanner">
+    </div>
+  </div>
+
+  <div class="full_btn">
+    <div class="left_btn">
+      <a href="#"><h2>공지사항</h2></a>
+    </div>
+    <div class="right_btn">
+      <a href="#"><h2>자주묻는 질문</h2></a>
+    </div>
+  </div>
+  
+  <div id="main">
+    <div class="box">
+      <div class="left_box">
+        <h2>인기펀딩<span>지금 커넥터에서 가장 많이 찾는 프로젝트</span></h2>
+        <div class="inner_box">
+          <div class="item_2">
+            <a href="detail.html">
+              <img src="./image/main/popular1.jpg" alt="traditional liquor">
+              <div class="box_text">
+                <p class="Con_title">농업회사법인(주)청해</p>
+                <p>[최초공개]150세트 한정, 청년이 빚은 청춘 막걸리! '청춘 7도'</p>
+                <p class="percent">
+                  <span>2,286%</span>
+                  <span>2,286,000원</span>
+                  <span class="D_day">D-24</span>
+                </p>
+              </div>
+            </a>
+          </div>
+                
+          <div class="item_2">
+            <a href="detail.html">
+              <img src="./image/main/popular2.png" alt="alcohol_image">
+              <p class="Con_title">농업회사법인(주)좋은술</p>
+              <p>[150병 한정!] 한국 최초 '볶은 보리/메밀'로 만든 소주!</p>
+              <p class="percent">
+                <span>1,118%</span>
+                <span>1,117,500원</span>
+                <span class="D_day">D-24</span>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right_box">
+        <h2>추천펀딩<span>회원님이 좋아할만한 프로젝트</span></h2>     
+        <div class="inner_box"> 
+          <div class="item_2">
+            <a href="detail.html">
+              <img src="./image/main/recommend1.png" alt="speaker">
+              <p class="Con_title">디앤비인터내셔널(주)</p>
+              <p>가격은 낮추고 품질은 높이다! 블루투스 스피커 가성비 완결판[HR-T]</p>
+              <p class="percent">
+                <span>1,102%</span>
+                <span>55,103,000원</span>
+                <span class="D_day">D-24</span>
+              </p>
+            </a>
+          </div>
+          <div class="item_2">
+            <a href="detail.html">
+              <img src="./image/main/recommend2.png" alt="laptop">
+              <p class="Con_title">디앤비인터내셔널(주)</p>
+              <p>[글로벌 36억 펀딩] 듀얼&트리플 노트북 모니터 TRIO</p>
+              <p class="percent">
+                <span>1,102%</span>
+                <span>55,103,000원</span>
+                <span class="D_day">D-24</span>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2>마감임박<span>곧 종료되는 프로젝트</span></h2>
+      <div class="inner_box">
+        <div class="item_4">
+          <a href="detail.html">
+            <img src="./image/main/deadline1.png" alt="sport player">
+            <p class="Con_title">(주)정글</p>
+            <p>[최초공개] 당신의 스포츠에 비트를 입히다! Zungle Viper</p>
+            <p class="percent">
+              <span>4,320%</span>
+              <span>43,196,800원</span>
+              <span class="D_day">D-1</span>
+            </p>
+          </a>
+        </div>
+        <div class="item_4">
+          <a href="detail.html">
+            <img src="./image/main/deadline2.png" alt="camerapack image">
+            <p class="Con_title">태남디비아이(주)</p>
+            <p>[글로벌 30억]400만 파워 유튜버와 노매틱이 만든 역대급 카메라팩</p>
+            <p class="percent">
+              <span>697%</span>
+              <span>34,848,000원</span>
+              <span class="D_day">D-2</span>
+            </p>
+          </a>
+        </div>
+        <div class="item_4">
+          <a href="detail.html">
+            <img src="./image/main/deadline3.png" alt="wireless earphone">
+            <p class="Con_title">(주)유메이드</p>
+            <p>글로벌150억펀딩 무선이어폰 [Pamu Slide Mini]</p>
+            <p class="percent">
+              <span>2,669%</span>
+              <span>26,687,000원</span>
+              <span class="D_day">D-1</span>
+            </p>
+          </a>
+        </div>
+        <div class="item_4">
+          <a href="detail.html">
+            <img src="./image/main/deadline4.png" alt="smart pot">
+            <p class="Con_title">Pivo</p>
+            <p>세계에서 인정받은 사진영상 촬영 스마트팟 '피보(Pivo)'</p>
+            <p class="percent">
+                <span>2,013%</span>
+                <span>60,376,000원</span>
+                <span class="D_day">D-4</span>
+            </p>
+          </a>
+        </div>
+      </div>
+            
+      <p class="more_project">
+        <a href="#">프로젝트 더보기</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="banner2">
+    <div class="banner_img">
+      <img src="./image/main/coupon_banner.jpg" alt="coupon">
+    </div>
+  </div>
+        
+  <div id="main2">
+    <div class="box">
+      <h2>소통공간<span>오직 기업과 주주만을 위한 플레이스!</span></h2>
+      <a href="communication.html"><img src="./image/main/communication_banner.jpg" alt="communicationBanner"></a>
+    </div>
+
+    <div class="box">
+      <h2>오픈예정<span>아직 공개전인 프로젝트를 미리 만나보세요</span></h2>
+      <div class="inner_box openbox">
+        <div class="item_3">
+          <a href="#"><img src="./image/main/open1.png" alt="itemImage">
+            <p class="Con_title">(주)쉔코리아</p>
+            <p>2만원대 에어컨 선풍기는 처음이시죠? 여러분의 여름을 책임져드립니다.</p>
+            <p class="openD_day">4/13(목) 14:00 오픈예정</p>
+            <p class="ListButton">4/13 / 14:00 오픈 알림 설정</p>
+          </a>
+        </div>
+        <div class="item_3">
+          <a href="#"><img src="./image/main/open2.png" alt="itemImage">
+            <p class="Con_title">(주)엠지스토리</p>
+            <p>[글로벌펀딩 46억 / 샤오미 로이드미]미로 초고속 헤어드라이기</p>
+            <p class="openD_day">4/15(토) 14:00 오픈예정</p>
+            <p class="ListButton">4/15 / 14:00 오픈 알림 설정</p>
+          </a>
+        </div>
+        <div class="item_3">
+          <a href="#"><img src="./image/main/open3.png" alt="itemImage">
+            <p class="Con_title">마이클앤선솔루션(주)</p>
+            <p>[가정의달 기념]신규 폰트와 이모티콘으로 네임스티커 무한제작! 마로마로</p>
+            <p class="openD_day">4/17(월) 14:00 오픈예정</p>
+            <p class="ListButton">4/17 / 14:00 오픈 알림 설정</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2>스토어<span>관심있는 기업에는 어떤 상품이 있는지 확인해 보세요!</span></h2>
+
+      <a href="store.html"><img src="./image/main/store_banner.jpg" alt="subBanner"></a>
+    </div>
+
+    <div class="box margazine">
+      <h2>매거진</h2>
+      <div class="inner_box">
+        <div class="item_3">
+          <a href="#"><img src="./image/main/magazine1.png" alt="magazineImage">
+            <p class="BookTitle">
+              친환경 진정성, 어떻게 전파해야 할까?<br>YOU CAN BE A GREEN MAKER!
+            </p>
+            <p class="BookText">
+                잘떼쓰틱 펀딩의 궁극적인 목표는 사람들에게 “잘 떼고 버려주세요!”라는 메시지를 전달하는 것이었어요.
+                실제로 펀딩 이후 많은 분들이 수퍼빈이 말하는 ‘올바른 분리배출 방법’을 실천하고 있기도 하고요.
+                진행 당시 SNS 상에서도 서포터분들이 자발적으로 홍보해 주셨고, 환경 실천에 진심인 분들 사이에서는
+                입소문이 퍼져 1차 펀딩 이후에도 앵콜 펀딩 요청이 정말 많이 들어왔어요.
+            </p>
+          </a>
+        </div>
+        <div class="item_3 double">
+          <a href="#">
+            <img src="./image/main/magazine2.png" alt="magazineImage">
+            <img src="./image/main/magaznie3.png" alt="magazineImage">
+            <p class="BookTitle">
+              캐릭터에 대한 높은 이해,<br>차별화된 제품을 위한 필수 과정이에요.
+            </p>
+            <p class="BookText">
+              IP를 활용한 마케팅이 어느 때보다 중요한 시대잖아요.
+              저희는 지금까지 삼성전자, 신세계, 카카오 등 글로벌 기업의 IP를 활용해 제품을 제작해 왔어요.
+              특정 IP로 어떤 제품을 만들지 제품을 정하는 단계부터 디자인 구상, 그리고 실제 제품으로
+              구현하기까지 전 단계를 거치고 있죠.
+            </p>
+          </a>
+        </div>
+        <div class="item_3">
+          <a href="#">
+              <img src="./image/main/magazine4.png" alt="magazineImage">
+              <p class="BookTitle">
+                집단지성의 힘으로 2억 5천만원을 이룬<br>신세계인터내셔널 사내벤처팀, 플립 FLIP
+              </p>    
+              <p class="BookText">
+                예전에 메이커스 라는 책을 인상 깊게 읽었어요.
+                그 책을 보니까 '머지 않아 유통 시장이 소비자 중심으로 변할 수도 있겠구나' 하는 생각이 들더라고요.
+                지금까지는 회사 입장에서 제품을 개발하고 만들어 왔잖아요. 플립을 만들기 전에도 저희가 옷을 디자인하고,
+                만드는 경우가 있긴 했지만 소비자 중심의 과정으로 진행된 건 아니었어요. 
+              </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer1">
+    <ul class="footer_nav">
+      <li><a href="company.html">커넥터 소개</a></li>
+      <li><a href="#">개인정보 처리방침</a></li>
+      <li><a href="#">온라인투자연계</a></li>
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">투자자 공지사항</a></li>
+    </ul>
+  </div>
+
+  <div id="footer2">
+    <div class="footer_text">
+      <h2>(주)커넥터<br>02-2547-5587</h2>
+      <p>
+        대표자:김지우 경기도 부천시 부일로 725번길 사업자 등록번호: 080-87-87405 <br> 개인정보보호책임자:박현민 Fax:02-857-5845 connectus@connect.com
+      </p>
+      <p>
+          대출금리 연 최고 17.9% 이내, 연체이자율 : 약정금리 +3% (법정최고금리 20%이내),
+          <br> 플랫폼 이용료 외 취급수수료 등 기타 부대비용은 없음, 조기상환조건 없음
+          <br> 중개수수료를 요구하거나 받는 행위는 불법입니다. 대출 시 귀하의 신용등급이 하락할 수 있습니다. 과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다.
+      </p>
+      <p>Copyright © CONNECT 2023. All Right Reserved.</p>
+    </div>  
+    <div class="icon">
+      <a href="#"><img src="./image/kakao.png" alt="snsIcon"></a>
+      <a href="#"><img src="./image/facebook.png" alt="snsIcon"></a>
+      <a href="#"><img src="./image/instargram.png" alt="snsIcon"></a>
+    </div>
+  </div>
+
+  <script src="./js/toggle.js"></script>
+  <script src="./js/mobileNavigation.js"></script>
+</body>
+
+</html>
